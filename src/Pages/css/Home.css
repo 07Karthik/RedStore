@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+.width-1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}

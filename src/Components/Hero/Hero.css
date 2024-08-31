@@ -1,0 +1,56 @@
+.hereo{
+    display: flex;
+    padding: 50px 100px;
+    background: radial-gradient(#fff, #ffd6d6);
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
+.hero-left button{
+    width: 170px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero-left button:active{
+    background-color: rgb(233, 91, 3);
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+@media screen and (max-width:770px) {
+    .hero-right img{
+        height: 350px;
+        width: 350px;
+    }
+    .hereo{
+        padding: 25px;
+    }
+    .hero-left h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:630px) {
+   .hereo{
+    flex-direction: column;
+    
+   }
+
+}

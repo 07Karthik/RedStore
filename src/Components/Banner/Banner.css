@@ -1,0 +1,56 @@
+.banner{
+    background: radial-gradient(#fff, #ffd6d6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1.5;
+}
+.right p{
+    font-size: 14px;
+    width: 500px;
+    font-weight: 400;
+}
+.right button{
+    width: 140px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right button:active{
+    background-color: rgb(233, 91, 3);
+}
+@media screen and (max-width:770px) {
+   .right p{
+    width: 300px;
+   }
+}
+@media screen and (max-width:600px) {
+   .banner{
+    flex-wrap: wrap;
+    height: 70vh;
+   }
+   .right{
+    align-items: center;
+   }
+   .right p{
+    text-align: center;
+   }
+}

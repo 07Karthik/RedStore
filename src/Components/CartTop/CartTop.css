@@ -1,0 +1,61 @@
+.carttop{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 50vh;
+}
+.carttop-heading{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding: 5px 2px;
+}
+.carttop-item{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-items: baseline;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.red{
+    color: red;
+    cursor: pointer;
+}
+.second input{
+    width: 30px;
+    text-align: center;
+}
+.carttop-bottom{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.carttop-bottom hr{
+    height: 2px;
+    width: 100%;
+    background-color: orange;
+}
+.carttop-side-bottom{
+    width: 50%;
+}
+.subtotal,.Tax,.Total{
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+button{
+    width: 60%;
+}
+@media screen and (max-width:500px) {
+    button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.logo-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo-1 img{
+    height: 75px;
+    filter: grayscale(100%);
+}
+.logo-1 img:hover{
+    transition: filter 0.3s ease-in-out;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+    .logo-1{
+        gap: 20px;
+    }
+    .logo-1 img{
+        height: 65px;
+    }
+}
+@media screen and (max-width:730px) {
+    .logo-1{
+        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .logo-1 img{
+        height: 55px;
+    }
+
+}

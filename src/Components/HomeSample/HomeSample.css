@@ -1,0 +1,28 @@
+.homesample{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:870px){
+    .homesample img{
+        width: 35%;
+    }
+}
+@media screen and (max-width:630px){
+    .homesample{
+        flex-wrap: wrap;
+    }
+    .homesample img{
+        width: 45%;
+    }
+}
+@media screen and (max-width:450px){
+    .homesample{
+        flex-wrap: wrap;
+    }
+    .homesample img{
+        width: 40%;
+        height: 200px;
+    }
+}
